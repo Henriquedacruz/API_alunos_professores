@@ -1,0 +1,16 @@
+.CardLogo{
+    padding: auto;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.LogoIntec{
+    width: 29rem;
+    height: 29rem;
+}

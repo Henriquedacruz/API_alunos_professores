@@ -1,0 +1,20 @@
+.HeaderLink{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+  } 
+
+  a :hover, .HeaderLink :hover {
+    color: rgb(0, 0, 0) !important;
+    font-size:larger ;
+    transition: 0.3s;
+
+}
+
+
+
+
+.HeaderLogo{
+  width: 2%;
+  height: 2%;
+}
