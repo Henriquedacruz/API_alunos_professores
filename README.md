@@ -8,11 +8,11 @@ https://www.npmjs.com/package/multer
 
 --Multer
 --Express
---Mysql12
+--Mysql2
 
 npm install --save mysql2 --global
-# teste insominia 
 
+# teste insominia 
 http://localhost:8080/upload-image
 
 content-type : multipart/form-data
