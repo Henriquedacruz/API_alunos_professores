@@ -1,7 +1,10 @@
 const express = require('express');
+var cors = require('cors');
 const app = express();
 const uploadUser = require('./middlewares/uploadImage');
+const Image = require('./models/Images');
 
+app.use('/files', express.static(path.resolve(__dirname,"public", "upload")));
 
 app.post("/upload-image", uploadUser.single('image'), async (req, res) => {
 
