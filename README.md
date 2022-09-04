@@ -9,6 +9,8 @@ https://www.npmjs.com/package/multer
 --Multer
 --Express
 --Mysql2
+--cors
+--sequelize
 
 # teste insominia 
 http://localhost:8080/upload-image
