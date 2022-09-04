@@ -10,8 +10,6 @@ https://www.npmjs.com/package/multer
 --Express
 --Mysql2
 
-npm install --save mysql2 --global
-
 # teste insominia 
 http://localhost:8080/upload-image
 
