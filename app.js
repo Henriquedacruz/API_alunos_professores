@@ -7,7 +7,7 @@ const uploadUser = require('./middlewares/uploadImage');
 
 const Image = require('./models/Images');
 
-app.use('/files', express.static(path.resolve(__dirname,"public", "upload")));
+app.use('/files', express.static(path.resolve(__dirname,"public", "upload", )));
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
@@ -23,7 +23,7 @@ app.get("/list-image", async (req, res) => {
         return res.json({
             erro: false,
             images,
-            url: "http://localhost:8080/files/users/"
+            url: "http://localhost:8080/files/observatorio/"
         });
     }).catch(() => {
         return res.status(400).json({
