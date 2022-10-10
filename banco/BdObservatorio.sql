@@ -8,10 +8,20 @@ select * from observatorio.imagens;
 create table tbl_usuario(
    id_usuario integer auto_increment primary key,
    email varchar(60) not null,
-   senha varchar(20) not null,
-   nome_usuario varchar(30) not null
+   password varchar(20) not null,
+   nome_usuario varchar(30) 
+);
+#drop table imagens;
+
+create table imagens(
+   id integer auto_increment primary key,
+   image varchar(60) not null,
+   createdAt datetime,
+   updatedAt datetime
 );
 
 select * from tbl_usuario;
+
+
 
 #delete from imagens where id = 9;
