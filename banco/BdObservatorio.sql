@@ -3,7 +3,7 @@
 create database observatorio character set utf8mb4 collate utf8mb4_unicode_ci;
 use observatorio;
 
-select * from observatorio.imagens;
+select * from imagens;
 
 create table tbl_usuario(
    id_usuario integer auto_increment primary key,
@@ -11,7 +11,7 @@ create table tbl_usuario(
    password varchar(20) not null,
    nome_usuario varchar(30) 
 );
-#drop table imagens;
+#drop table File;
 
 create table imagens(
    id integer auto_increment primary key,
@@ -19,8 +19,16 @@ create table imagens(
    createdAt datetime,
    updatedAt datetime
 );
+create table File(
+   id integer auto_increment primary key,
+   file varchar(60) not null,
+   createdAt datetime,
+   updatedAt datetime
+);
 
 select * from tbl_usuario;
+select * from File;
+select * from imagens;
 
 
 
