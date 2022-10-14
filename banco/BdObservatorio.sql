@@ -11,7 +11,7 @@ create table tbl_usuario(
    password varchar(20) not null,
    nome_usuario varchar(30) 
 );
-#drop table File;
+#drop table imagens;
 
 create table imagens(
    id integer auto_increment primary key,
